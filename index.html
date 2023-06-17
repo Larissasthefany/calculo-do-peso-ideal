@@ -15,29 +15,25 @@
         <img src="src/img/peso.png" alt="imagem de uma pessoa se pesando">
     </div>
 
-    <form>
-        <h1>Cálculo do Peso Ideal</h1>
-
-        <p>Nome:</p>
-        <input type="text" id="inNome">
-
-        <p>Sexo:</p>
-        <input type="radio" name="sexo" id="inMasculino" required> Masculino
-        <input type="radio" name="sexo" id="inFeminino" required> Feminino
-
-        <p>Altura: </p>
-        <input type="number" min="0" step="0.01" id="inAltura" required>
-
-        <input type="submit" value="Cálcular Peso Ideal" class="btn">
-        <input type="reset" value="Limpar Campos" class="btn" id="reset">
-
+    <div class="container-form">
+        <form>
+            <h1>Cálculo do Peso Ideal</h1>
+            <p>Nome:</p>
+            <input type="text" id="inNome">
+            <p>Sexo:</p>
+            <input type="radio" name="sexo" id="inMasculino" required> Masculino
+            <input type="radio" name="sexo" id="inFeminino" required> Feminino
+            <p>Altura: </p>
+            <input type="number" min="0" step="0.01" id="inAltura" required>
+            <input type="submit" value="Cálcular Peso Ideal" class="btn">
+            <input type="reset" value="Limpar Campos" class="btn" id="reset">
+        </form>
         <div class="resultado">
             <h3></h3>
         </div>
+    </div>
 
-    </form>
 
-   
 
     <script src="src/js/index.js"></script>
 </body>
